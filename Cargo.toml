@@ -1,0 +1,12 @@
+[package]
+name = "mp3meta"
+version = "0.1.0"
+authors = ["Alex <busarovalex@yandex.ru>"]
+
+[dependencies]
+encoding = "0.2"
+clap = "*"
+
+[dependencies.id3]
+git = "https://github.com/jameshurst/rust-id3.git"
+rev = "21ebef8706dd5f2b1bf6b05cc87ded3b20d54dcd"
